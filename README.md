@@ -25,3 +25,10 @@
 
 - JSON Object di Go-Lang direpresentasikan dengan tipe data Struct
 - Dimana tiap attribute di JSON Object merupakan attribute di Struct
+
+# Decode JSON
+
+- Sekarang kita sudah tahu bagaimana caranya melakukan encode dari tipe data di Go-Lang ke JSON
+- Namun bagaimana jika kebalikannya?
+- Untuk melakukan konversi dari JSON ke tipe data di Go-Lang `(Decode)`, kita bisa menggunakan function `json.Unmarshal(byte[], interface{})`
+- Dimana `byte[]` adalah `data JSON` nya, sedangkan `interface{}` adalah `tempat menyimpan hasil konversi`, bisanya berupa pointer
