@@ -39,3 +39,9 @@
 - Array di JSON mirip dengan Array di JavaScript, dia berisikan tipe data primitif, atau tipe data kompleks (Object atau Array)
 - Di Go-Lang, JSON Array `direpresentasikan` dalam bentuk `slice`
 - Konversi dari JSON atau ke JSON dilakukan secara otomatis oleh package json menggunakan tipe data slice
+
+# Decode JSON Array
+
+- Selain menggunakan Array pada attribute di Object
+- Kita juga bisa melakukan encode atau decode langsung JSON Array nya
+- Encode dan Decode JSON Array bisa menggunakan tipe data Slice
